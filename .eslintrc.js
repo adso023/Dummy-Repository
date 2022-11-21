@@ -12,9 +12,6 @@ module.exports = {
         createDefaultProgram: true,
       },
       extends: [
-        'plugin:@angular-eslint/ng-cli-compat',
-        'plugin:@angular-eslint/ng-cli-compat--formatting-add-on',
-        'plugin:@angular-eslint/template/process-inline-templates',
         'plugin:eslint-comments/recommended',
         'prettier', // this always has to be the last
       ],
