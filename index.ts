@@ -4,9 +4,9 @@ import path from 'path';
 (() => {
   console.log('Starting loop');
 
-  for (let i = 0; i < 100; i++) {
+  for (let i = 100; i < 1500; i++) {
     console.log(`Writing to test${i}.ts`);
-    for (let j = 0; j < 600; j++) {
+    for (let j = 0; j < 1000; j++) {
       fs.appendFileSync(
         path.join(__dirname, 'src', `test${i}.ts`),
         'console.log("Hello, World!");',
